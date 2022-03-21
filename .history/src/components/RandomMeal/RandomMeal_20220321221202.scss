@@ -1,0 +1,22 @@
+.random {
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+
+  &-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
